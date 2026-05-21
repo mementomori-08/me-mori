@@ -134,3 +134,16 @@ footer {
     color: var(--text-light);
     border-top: 1px solid #eee;
 }
+/* Estilo especial para el botón de descarga en el menú */
+.nav-links a.nav-download {
+    background-color: var(--accent-blue);
+    color: var(--white);
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.nav-links a.nav-download:hover {
+    background-color: var(--primary-blue);
+    text-decoration: none;
+}
